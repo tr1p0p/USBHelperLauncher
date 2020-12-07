@@ -16,7 +16,7 @@ jobs:
         #   - BCMakeCert.2.0.9.nupkg
         #   - FiddlerCore.Trial.5.0.0.nupkg
         #   - Telerik.NetworkConnections.0.2.0.nupkg
-        repository: shiftinv/usbhelperlauncher-deps
+        repository: tr1p0p/usbhelperlauncher-deps
         path: usbhelperlauncher-deps
         ssh-key: ${{ secrets.usbhelperlauncher_deps_deploy_key }}
 
